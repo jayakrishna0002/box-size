@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.a{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: stretch;
+}
+.o{
+    border: 3px solid;
+}
+.d,.g,.f{
+    border-top: 0cap;
+}
+.f,.g{
+    border-bottom: 0cap;
+}
+.b,.c{
+    flex-grow: 1;
+}
+.b,.d,.g{
+    border-right: 0cap;
+}
+.c,.g{
+    border-left: 0cap;
+}
+.c{
+    display: flex;
+    flex-direction: column;
+}
+.d,.e{
+    flex-grow: 1;
+}
+.e{
+    display: flex;
+}
+.f,.g{
+    flex-grow: 1;
+}
